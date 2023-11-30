@@ -11,7 +11,7 @@ string d; // строка для записи полученного значе�
 int p1, p2; //первый и второй индекс вхождения подвыражения в выражения
 void calculator(string expression){
     string temp_expression = expression;
-    while(((expression.find("^") != expression.npos) || (expression.find("*") != expression.npos) || (expression.find("/") != expression.npos) || (expression.find("+") != expression.npos) || (expression.find("-") != expression.npos)) && (expression.rfind("-") != 0)){
+    if(((expression.find("^") != expression.npos) || (expression.find("*") != expression.npos) || (expression.find("/") != expression.npos) || (expression.find("+") != expression.npos) || (expression.find("-") != expression.npos)) && (expression.rfind("-") != 0)){
         int k1 = 0, k2 = 0; //счетчики для открытых и закрытых скобок
         if (temp_expression.find("(") != expression.npos){ //в этом куске проверяем выражение на скобки
 
@@ -26,7 +26,7 @@ void calculator(string expression){
                 }
                 if ((k1 == k2) && (k1 != 0)){
 //                    cout << "brackets number is same." << endl;
-                    p1 = temp_expression.find("(")+1; //берем выражение уже без скобок
+                    p1 = temp_expression.find("(") + 1; //берем выражение уже без скобок
                     p2 = i - 1;
 //                    cout << "substring indexes: " << p1 << " " << p2 << endl;
                     break;
@@ -118,7 +118,7 @@ void calculator(string expression){
                     a = 0;
                     b = 0;
                     c = 0;
-                    expression.replace(g2 - n.length(), n.length() + m.length() + 1, d);
+                    expression.replace(p1, n.length() + m.length() + 1, d);
                     cout << "after: " << expression << endl;
                     temp_expression = expression;
                 }
