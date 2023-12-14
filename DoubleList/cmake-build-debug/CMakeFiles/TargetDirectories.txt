@@ -1,0 +1,3 @@
+C:/Users/DenTe/Documents/GitHub/AlgYaz/DoubleList/cmake-build-debug/CMakeFiles/DoubleList.dir
+C:/Users/DenTe/Documents/GitHub/AlgYaz/DoubleList/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/DenTe/Documents/GitHub/AlgYaz/DoubleList/cmake-build-debug/CMakeFiles/rebuild_cache.dir

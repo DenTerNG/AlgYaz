@@ -1,0 +1,3 @@
+C:/Users/DenTe/Documents/GitHub/AlgYaz/01.12.23/cmake-build-debug/CMakeFiles/01_12_23.dir
+C:/Users/DenTe/Documents/GitHub/AlgYaz/01.12.23/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/DenTe/Documents/GitHub/AlgYaz/01.12.23/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+C:/Users/DenTe/Documents/GitHub/AlgYaz/ListLab/cmake-build-debug/CMakeFiles/ListLab.dir
+C:/Users/DenTe/Documents/GitHub/AlgYaz/ListLab/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/DenTe/Documents/GitHub/AlgYaz/ListLab/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+C:/Users/DenTe/Documents/GitHub/AlgYaz/MatrixLab/cmake-build-debug/CMakeFiles/MatrixLab.dir
+C:/Users/DenTe/Documents/GitHub/AlgYaz/MatrixLab/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/DenTe/Documents/GitHub/AlgYaz/MatrixLab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
