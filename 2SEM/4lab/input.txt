@@ -1,0 +1,4 @@
+Credit1 1000 USD 2.0
+Credit2 4200 EUR 3.5
+Credit4 3000 JPY 2.1
+Credit3 1500 GBP 4.2
