@@ -7,8 +7,7 @@ struct Node {
     int data;
     Node* left;
     Node* right;
-    Node* parent; // опционально, указатель на предыдущий элемент
-
+    Node* parent; 
     Node(int value) : data(value), left(nullptr), right(nullptr), parent(nullptr) {}
 };
 
